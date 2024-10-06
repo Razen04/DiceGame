@@ -1,0 +1,19 @@
+
+.user-score {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.scores {
+    margin-right: 3rem;
+}
+
+.user-score h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.show {
+    margin-left: 2rem;
+}

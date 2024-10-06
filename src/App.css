@@ -1,0 +1,41 @@
+*{
+  user-select: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .nav {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user-score, .user-score h1, .scores {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .numbers button {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  .select-numbers h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .rules-info {
+    font-size: 10px;
+    margin: 4rem 1rem;
+    width: fit-content;
+  }
+}
