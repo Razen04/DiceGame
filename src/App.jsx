@@ -11,7 +11,7 @@ const App = () => {
   const [numberSelected, setNumberSelected] = React.useState(false);
   const [diceRolls, setDiceRolls] = React.useState(0);
   const [score, setScore] = React.useState(0);
-  const [winner, setWinner] = React.useState(true);
+  const [winner, setWinner] = React.useState(false);
 
   return (
     <div>

@@ -12,7 +12,7 @@ const Score = ({ selectedNumber, randomNumber, diceRolls, score, setScore, winne
         setScore(prevScore => prevScore - randomNumber)
       }
 
-      if(score >= 10) {
+      if(score >= 9) {
         setWinner(true)
       }
 
