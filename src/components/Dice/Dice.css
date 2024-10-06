@@ -110,6 +110,7 @@
     padding: 1rem 2rem;
     background-color: #FBF1F1;
     margin: 4rem auto;
+    width: fit-content;
     border-radius: 0.5rem;
 }
 
